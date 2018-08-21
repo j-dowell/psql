@@ -30,7 +30,7 @@ knex('famous_people')
                 return err;
             } else {
                 console.log(`Added ${first} ${last} to the database!`);
-                console.log(rows);
+                console.log(rows);212
             }
         });
     }
